@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 50px;
+}
+
+header {
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 105px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.container-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.icon {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.container-message-area {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-area {
+  width: 700px;
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border: 3px solid white;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+}
+
+.arrow-icon {
+  color: white;
+  font-size: 35px;
+}
+
+.btn-send {
+  background-color: chartreuse;
+  padding: 20px;
+  border-radius: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.btn-new-question {
+  padding: 20px;
+  background-color: rgb(224, 116, 168);
+  border-radius: 100px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.points {
+  color: white;
+  margin: 30px;
+  font-size: 25px;
+}
+
+/* -----
+COLORS
+*/
+
+.yellow-header {
+  color: yellow;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.green {
+  color: greenyellow;
+  margin: 20px;
+}
