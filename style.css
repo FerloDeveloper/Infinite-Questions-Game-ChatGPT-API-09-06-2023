@@ -132,6 +132,10 @@ p {
   font-size: 25px;
 }
 
+.loader {
+  width: 80px;
+}
+
 /* -----
 COLORS
 */
