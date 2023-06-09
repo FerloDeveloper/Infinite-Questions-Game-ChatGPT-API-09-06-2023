@@ -120,10 +120,11 @@ p {
 
 .btn-new-question {
   padding: 20px;
-  background-color: rgb(224, 116, 168);
+  background-color: rgb(255, 147, 58);
   border-radius: 100px;
   margin: 20px;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .points {
